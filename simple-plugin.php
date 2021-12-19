@@ -74,7 +74,7 @@ function enqueue_scripts_styles_add()
 }
 add_action('admin_enqueue_scripts', 'enqueue_scripts_styles_add');
 
-// creating database table on plugin activation
+// creating database
 function create_db_table_on_activation()
 {
     global $wpdb;
